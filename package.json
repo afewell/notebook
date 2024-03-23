@@ -37,6 +37,7 @@
     "prettier:files": "prettier --write",
     "release:bump": "node ./buildutils/lib/release-bump.js",
     "release:patch": "node ./buildutils/lib/release-patch.js",
+    "start": "jupyter lab --allow-root --ip='0.0.0.0' --port=8080",
     "test": "lerna run test",
     "update:dependency": "node ./node_modules/@jupyterlab/buildutils/lib/update-dependency.js --lerna",
     "watch": "run-p watch:lib watch:app",
